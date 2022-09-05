@@ -1,0 +1,17 @@
+h2{
+  font-family: cursive;
+}
+form{
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.card{
+  width: 80%;  
+}
+.card h2{
+  font-size: medium;
+}
+.span{
+  font-size: 30px;
+}

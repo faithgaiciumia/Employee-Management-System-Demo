@@ -1,0 +1,25 @@
+{
+  "name": "employeemgt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "compile": "npx babel src --presets @babel/react --out-dir public",
+    "watch": "npx babel --watch src --presets @babel/react --out-dir public --verbose"
+  }, 
+  "author": "Faith Gaiciumia",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.8.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.8",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-react": "^7.16.7"
+  }
+}
